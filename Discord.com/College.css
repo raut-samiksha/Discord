@@ -1,0 +1,245 @@
+/* Navbar*/ 
+.menu{
+    background-color: #404eed;
+
+}
+
+.menu .menu-item{
+    font-weight: 600;
+    color: white;
+}
+
+/* Hero section*/ 
+.hero-section{
+    z-index: 2;
+    min-height: auto;
+    height: 580px;
+    background-image: url(college\ hero.jpg);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 135px;
+    position: relative;
+    text-align: left;
+}
+
+.hero-section h1{
+    color: #fff;
+    margin-bottom: 24px;
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 500;
+    padding-right: 600px;
+}
+
+.hero-section p{
+    padding-right: 700px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn-download{
+    height: 50px;
+    width: 150px;
+}
+
+.btn-download b{
+    font-size: 20px;
+}
+
+.btn-template{
+    height: 50px;
+    width: 280px;
+    
+}
+
+.btn-template b{
+    font-size: 20px;
+}
+
+/* Video section */
+
+.video-content{
+    height: 800px;
+}
+
+.video-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.video-content p{
+    font-size: 20px;
+}
+
+.video{
+    border-radius: 30px;
+}
+
+
+/* main content section*/
+.main-content{
+    height: 950px;
+}
+
+.main-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content .new-p{
+    font-size: 20px;
+}
+
+.main-content h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main-content p{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+
+/* Colleges section */ 
+.colleges{
+    height: 1000px;
+}
+
+.colleges h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.colleges p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.colleges .paragraph{
+    font-size: 15px;
+}
+
+.colleges a{
+    text-decoration: none;
+}
+
+
+/* Star section */ 
+
+.star img{
+    padding: 100px;
+}
+
+.star h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: -120px;
+}
+
+
+/* Footer section */
+
+.new-h6{
+    color: #5865f2;
+}
+
+.Product{
+    color: white;
+    text-decoration: none;
+}
+
+
+.download {
+    text-align: center;
+}
+
+/* Media queries Section */ 
+
+@media (min-width: 575px) and (max-width :768px) { 
+
+    .hero-section h1{
+        width: auto;
+        padding-right: 0px;
+    }
+
+    .hero-section p{
+        padding-right: 0px;
+    }
+
+    .hero-section .btn-download{
+        width: 100%;
+    }
+
+    .hero-section .btn-template{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .video-content{
+        padding-top: 50px;
+    }
+
+    .video-content .video{
+        margin-top: 30px;
+        border-radius: 30px;
+       height: 300px;
+    }
+
+    .video-content{
+        height: 650px;
+    }
+
+    .main-content{
+        height: auto;
+    }
+
+    .main-content h2{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .main-content p{
+        margin-top: -10px;
+    }
+
+    .colleges{
+        height: 1800px;
+        width: auto;
+    }
+    .colleges h2{
+        margin-top: 50px;
+        width: 550px;
+    }
+
+    .colleges .college-1{
+        margin-top: 10px;
+    }
+
+    .star img{
+        width: auto;
+        margin-top: 100px;
+        padding: 0px;
+    }
+
+    .star h3{
+        margin-top: -20px;
+    } 
+
+    .star button{
+        width: 100%;
+        margin-top: 40px;
+       
+    }
+
+}
