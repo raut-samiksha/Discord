@@ -1,0 +1,138 @@
+/* Navbar*/ 
+.menu{
+    background-color: #404eed;
+
+}
+
+.menu .menu-item{
+    font-weight: 600;
+    color: white;
+}
+
+/* Hero Section*/ 
+.hero-section{
+    background-color: #5865f2;
+    height: 350px;
+}
+
+.hero-section h1{
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+    line-height: 95%;
+}
+
+.hero-section p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/* community Section */ 
+
+.community h3{
+    font-size: 600;
+    font-size: 32px;
+}
+
+.community p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* setup Section */ 
+
+.setup b{
+    margin-top: 10px;
+    color: #5865f2;
+    font-weight: 700;
+    font-size: 24px ;
+    text-align: center;
+}
+
+.setup p{
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 1.625;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.setup a{
+    text-decoration: none;
+}
+
+/* Apps Section */ 
+
+.apps{
+    height: 3100px;
+}
+
+.apps h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.apps p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.apps img{
+    height: 80px;
+}
+.apps b{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.apps .new-p{
+    font-size: 16px;
+}
+
+.apps i{
+    color: #57f287;
+    font-size: 25px;
+    vertical-align: middle;
+    top: 10px;
+    
+}
+
+.apps a{
+    line-height: 30px;
+}
+
+
+/* Footer Section */ 
+
+.new-h6{
+    color: #5865f2;
+}
+
+.Product{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Media queries Section */ 
+
+@media (min-width: 575px) and (max-width :768px) { 
+
+    .community{
+        padding-top: 20px;
+    }
+
+    .apps{
+        height: 4700px;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .setup{
+        margin-top: 50px;
+    }
+
+}
